@@ -3,33 +3,53 @@ import { ArrowRight, Settings, Zap, Cog } from "lucide-react";
 import coldBoxMachine from "@/assets/cold-box-machine.jpg";
 import hotBoxMachine from "@/assets/hot-box-machine.jpg";
 import shellCoreMachine from "@/assets/shell-core-machine.jpg";
+import { useNavigate } from "react-router-dom";
 
 const ProductsSection = () => {
+  const navigate = useNavigate();
   const products = [
     {
       title: "Cold Box Core Shooter",
       image: coldBoxMachine,
       icon: Settings,
-      description: "High-precision cold box core shooter machines for complex sand cores with excellent dimensional accuracy and surface finish.",
-      features: ["Automatic operation", "PLC control system", "Energy efficient", "Low maintenance"],
-      specs: "Capacity: 50-500 tons"
+      description:
+        "High-precision cold box core shooter machines for complex sand cores with excellent dimensional accuracy and surface finish.",
+      features: [
+        "Automatic operation",
+        "PLC control system",
+        "Energy efficient",
+        "Low maintenance",
+      ],
+      specs: "Capacity: 50-500 tons",
     },
     {
       title: "Hot Box Core Shooter",
       image: hotBoxMachine,
       icon: Zap,
-      description: "Advanced hot box core shooting technology for rapid core production with superior strength and dimensional stability.",
-      features: ["Fast cycle times", "Uniform heating", "Digital controls", "Safety systems"],
-      specs: "Temperature: 200-300°C"
+      description:
+        "Advanced hot box core shooting technology for rapid core production with superior strength and dimensional stability.",
+      features: [
+        "Fast cycle times",
+        "Uniform heating",
+        "Digital controls",
+        "Safety systems",
+      ],
+      specs: "Temperature: 200-300°C",
     },
     {
       title: "Shell Core Machine",
       image: shellCoreMachine,
       icon: Cog,
-      description: "Precision shell core machines for high-volume production with consistent quality and automated handling systems.",
-      features: ["Fully automatic", "Quality monitoring", "Flexible tooling", "Remote diagnostics"],
-      specs: "Production: 100-1000 cores/hr"
-    }
+      description:
+        "Precision shell core machines for high-volume production with consistent quality and automated handling systems.",
+      features: [
+        "Fully automatic",
+        "Quality monitoring",
+        "Flexible tooling",
+        "Remote diagnostics",
+      ],
+      specs: "Production: 100-1000 cores/hr",
+    },
   ];
 
   return (
@@ -40,7 +60,8 @@ const ProductsSection = () => {
             Our <span className="text-gradient-primary">Product Range</span>
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            Comprehensive foundry equipment solutions designed for precision, efficiency, and reliability in demanding industrial environments.
+            Comprehensive foundry equipment solutions designed for precision,
+            efficiency, and reliability in demanding industrial environments.
           </p>
         </div>
 
@@ -78,8 +99,12 @@ const ProductsSection = () => {
 
                 {/* Specifications */}
                 <div className="bg-muted/50 rounded-lg p-3">
-                  <div className="text-sm font-medium text-primary mb-1">Key Specification</div>
-                  <div className="text-sm text-muted-foreground">{product.specs}</div>
+                  <div className="text-sm font-medium text-primary mb-1">
+                    Key Specification
+                  </div>
+                  <div className="text-sm text-muted-foreground">
+                    {product.specs}
+                  </div>
                 </div>
 
                 {/* Features */}
@@ -96,7 +121,16 @@ const ProductsSection = () => {
                 </div>
 
                 {/* CTA */}
-                <Button className="w-full btn-outline-primary group-hover:bg-primary group-hover:text-primary-foreground">
+                <Button
+                  onClick={() =>
+                    navigate(
+                      `/products#${product.title
+                        .toLowerCase()
+                        .replace(/\s+/g, "-")}`
+                    )
+                  }
+                  className="w-full btn-outline-primary group-hover:bg-primary group-hover:text-primary-foreground"
+                >
                   Learn More
                   <ArrowRight className="ml-2 h-4 w-4" />
                 </Button>
@@ -107,7 +141,10 @@ const ProductsSection = () => {
 
         {/* View All Products CTA */}
         <div className="text-center mt-12">
-          <Button className="btn-hero text-lg px-8 py-4">
+          <Button
+            onClick={() => navigate("/products")}
+            className="btn-hero text-lg px-8 py-4"
+          >
             View All Products
             <ArrowRight className="ml-2 h-5 w-5" />
           </Button>
