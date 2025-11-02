@@ -11,13 +11,13 @@ const Contact = () => {
     {
       icon: Phone,
       title: "Phone",
-      details: ["+91 9979645392", "+91 9979645392"],
+      details: ["+91 9979645392"],
       action: "Call Now",
     },
     {
       icon: Mail,
       title: "Email",
-      details: ["mj986903@gmail.com", "mj986903@gmail.com"],
+      details: ["mj986903@gmail.com"],
       action: "Send Email",
     },
     {

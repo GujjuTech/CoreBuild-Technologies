@@ -162,7 +162,7 @@ const About = () => {
             <p className="text-xl opacity-90 mb-8 max-w-2xl mx-auto">
               Join hundreds of companies who trust CoreBuild Technologies for their foundry equipment needs.
             </p>
-            <Button className="btn-hero">
+            <Button className="bg-white text-primary border-2 border-white text-lg px-8 py-4 hover:bg-transparent hover:text-white hover:border-white transition-colors duration-300">
               Start Your Journey
             </Button>
           </div>

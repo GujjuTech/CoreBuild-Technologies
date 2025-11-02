@@ -227,10 +227,10 @@ const Products = () => {
               Get expert consultation and customized solutions for your specific foundry requirements.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Button className="btn-hero">
+              <Button className="bg-white text-primary border-2 border-white text-lg px-8 py-4 hover:bg-transparent hover:text-white hover:border-white transition-colors duration-300">
                 Request Consultation
               </Button>
-              <Button variant="outline" className="border-2 border-white text-white hover:bg-white hover:text-primary">
+              <Button variant="outline" className="bg-white text-primary border-2 border-white text-lg px-8 py-4 hover:bg-transparent hover:text-white hover:border-white transition-colors duration-300">
                 Download Full Catalog
               </Button>
             </div>
