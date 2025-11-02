@@ -9,7 +9,7 @@ import {
   Instagram,
   Youtube,
 } from "lucide-react";
-import makewellLogo from "@/assets/makewell-logo.png";
+import coreBuildTechnologiesLogo from "@/assets/coreBuildTechnologies-logo.png";
 
 const Footer = () => {
   const navigate = useNavigate();
@@ -22,13 +22,13 @@ const Footer = () => {
           <div className="space-y-4">
             <div className="flex items-center space-x-3">
               <img
-                src={makewellLogo}
-                alt="Makewell Technomac"
+                src={coreBuildTechnologiesLogo}
+                alt="CoreBuild Technologies"
                 className="h-10 w-auto filter brightness-0 invert"
               />
               <div className="flex flex-col">
-                <span className="text-xl font-bold">MAKEWELL</span>
-                <span className="text-sm opacity-80">TECHNOMAC</span>
+                <span className="text-xl font-bold">COREBUILD</span>
+                <span className="text-sm opacity-80">TECHNOLOGIES</span>
               </div>
             </div>
             <p className="text-sm opacity-80 leading-relaxed">
@@ -38,7 +38,7 @@ const Footer = () => {
             </p>
             <div className="flex space-x-4">
               <a
-                href="https://www.facebook.com/makewelltechnomac"
+                href="https://www.facebook.com/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -52,21 +52,21 @@ const Footer = () => {
                 <Twitter className="h-5 w-5 opacity-60 hover:opacity-100 cursor-pointer transition-opacity" />
               </a>
               <a
-                href="https://www.linkedin.com/company/makewell-technomac"
+                href="https://www.linkedin.com/company/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 <Linkedin className="h-5 w-5 opacity-60 hover:opacity-100 cursor-pointer transition-opacity" />
               </a>
               <a
-                href="https://www.instagram.com/makewelltechnomac"
+                href="https://www.instagram.com/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 <Instagram className="h-5 w-5 opacity-60 hover:opacity-100 cursor-pointer transition-opacity" />
               </a>
               <a
-                href="https://www.youtube.com/@makewelltechnomac6919"
+                href="https://www.youtube.com/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -188,20 +188,20 @@ const Footer = () => {
               <div className="flex items-center space-x-3">
                 <Phone className="h-4 w-4 opacity-60" />
                 <a
-                  href="tel:+919054819197"
+                  href="tel:+919979645392"
                   className="opacity-80 hover:underline"
                 >
-                  +91 90548 19197
+                  +91 9979645392
                 </a>
               </div>
 
               <div className="flex items-center space-x-3">
                 <Mail className="h-4 w-4 opacity-60" />
                 <a
-                  href="mailto:makewelltechnomac@gmail.com"
+                  href="mailto:mj986903@gmail.com"
                   className="opacity-80 hover:underline"
                 >
-                  makewelltechnomac@gmail.com
+                  mj986903@gmail.com
                 </a>
               </div>
             </div>
@@ -210,8 +210,7 @@ const Footer = () => {
 
         <div className="border-t border-primary-foreground/20 mt-8 pt-8 text-center">
           <p className="text-sm opacity-60">
-            © 2025 Makewell Technomac. All rights reserved. | ISO Certified
-            Manufacturing Excellence
+            © This is a concept website I designed and developed for a client project that was not launched. The design and code are original and showcase my front-end and back-end skills.
           </p>
         </div>
       </div>

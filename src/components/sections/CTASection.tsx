@@ -13,7 +13,7 @@ const CTASection = () => {
             Ready to Transform Your Foundry Operations?
           </h2>
           <p className="text-xl opacity-90 mb-8 leading-relaxed">
-            Join over 500 companies worldwide who trust Makewell Technomac for
+            Join over 500 companies worldwide who trust CoreBuild Technologies for
             their foundry equipment needs. Get expert consultation and
             customized solutions for your specific requirements.
           </p>
@@ -52,7 +52,7 @@ const CTASection = () => {
               Get Free Quote
               <ArrowRight className="ml-2 h-5 w-5" />
             </Button>
-            <a href="/brochure.pdf" download="Makewell-Technomac-Brochure.pdf">
+            <a href="" download="CoreBuild-Technologies-Brochure.pdf">
               <Button
                 variant="outline"
                 className="bg-white text-primary border-2 border-white text-lg px-8 py-4 hover:bg-transparent hover:text-white hover:border-white transition-colors duration-300"

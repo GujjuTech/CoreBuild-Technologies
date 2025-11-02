@@ -11,13 +11,13 @@ const Contact = () => {
     {
       icon: Phone,
       title: "Phone",
-      details: ["+91 90548 19197", "+91 9033253576"],
+      details: ["+91 9979645392", "+91 9979645392"],
       action: "Call Now",
     },
     {
       icon: Mail,
       title: "Email",
-      details: ["makewelltechnomac@gmail.com", "info@makewelltechnomac.com"],
+      details: ["mj986903@gmail.com", "mj986903@gmail.com"],
       action: "Send Email",
     },
     {
@@ -38,15 +38,15 @@ const Contact = () => {
     {
       region: "Head Office",
       location: "Rajkot, Gujarat, India",
-      phone: "+91 90548 19197",
-      email: "makewelltechnomac@gmail.com",
+      phone: "+91 9979645392",
+      email: "mj986903@gmail.com",
       description: "Manufacturing facility and headquarters",
     },
     {
       region: "Export Division",
       location: "Rajkot, Gujarat, India",
-      phone: "+91 9033253576",
-      email: "export@makewelltechnomac.com",
+      phone: "+91 9979645392",
+      email: "export@mj986903.com",
       description: "International sales and support",
     },
   ];

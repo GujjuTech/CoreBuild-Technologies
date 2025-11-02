@@ -42,7 +42,7 @@ const About = () => {
         <section className="py-20 bg-gradient-surface">
           <div className="container mx-auto px-4 text-center">
             <h1 className="text-4xl md:text-5xl font-bold mb-6">
-              About <span className="text-gradient-primary">Makewell Technomac</span>
+              About <span className="text-gradient-primary">CoreBuild Technologies</span>
             </h1>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
               For over 25 years, we have been at the forefront of foundry equipment manufacturing, delivering precision-engineered solutions that power industries worldwide.
@@ -57,7 +57,7 @@ const About = () => {
               <div className="space-y-6">
                 <h2 className="text-3xl font-bold">Our Story</h2>
                 <p className="text-muted-foreground leading-relaxed">
-                  Founded in 1999 in Rajkot, Gujarat, Makewell Technomac began with a vision to revolutionize foundry equipment manufacturing in India. What started as a small engineering workshop has grown into a globally recognized manufacturer serving over 50 countries.
+                  Founded in 1999 in Rajkot, Gujarat, CoreBuild Technologies began with a vision to revolutionize foundry equipment manufacturing in India. What started as a small engineering workshop has grown into a globally recognized manufacturer serving over 50 countries.
                 </p>
                 <p className="text-muted-foreground leading-relaxed">
                   Our journey has been driven by relentless innovation, unwavering commitment to quality, and a deep understanding of our customers' evolving needs. Today, we stand as a trusted partner for foundries worldwide, delivering cutting-edge core shooter machines and comprehensive foundry solutions.
@@ -160,7 +160,7 @@ const About = () => {
           <div className="container mx-auto px-4 text-center">
             <h2 className="text-3xl font-bold mb-6">Partner with Industry Leaders</h2>
             <p className="text-xl opacity-90 mb-8 max-w-2xl mx-auto">
-              Join hundreds of companies who trust Makewell Technomac for their foundry equipment needs.
+              Join hundreds of companies who trust CoreBuild Technologies for their foundry equipment needs.
             </p>
             <Button className="btn-hero">
               Start Your Journey

@@ -3,7 +3,7 @@ import { useLocation, useNavigate } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { Menu, X, Phone, Mail } from "lucide-react";
 import { Link } from "react-router-dom";
-import makewellLogo from "@/assets/makewell-logo.png";
+import coreBuildTechnologiesLogo from "@/assets/coreBuildTechnologies-logo.png";
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -33,10 +33,10 @@ const Header = () => {
             <div className="flex items-center gap-2">
               <Mail className="h-4 w-4" />
               <a
-                href="mailto:makewelltechnomac@gmail.com"
+                href="mailto:mj986903@gmail.com"
                 className="hover:underline"
               >
-                makewelltechnomac@gmail.com
+                mj986903@gmail.com
               </a>
             </div>
           </div>
@@ -49,13 +49,13 @@ const Header = () => {
           {/* Logo */}
           <Link to="/" className="flex items-center space-x-3">
             <img
-              src={makewellLogo}
-              alt="Makewell Technomac"
+              src={coreBuildTechnologiesLogo}
+              alt="CoreBuild Technologies"
               className="h-10 w-auto"
             />
             <div className="flex flex-col">
-              <span className="text-xl font-bold text-primary">MAKEWELL</span>
-              <span className="text-sm text-muted-foreground">TECHNOMAC</span>
+              <span className="text-xl font-bold text-primary">COREBUILD</span>
+              <span className="text-sm text-muted-foreground">TECHNOLOGIES</span>
             </div>
           </Link>
 

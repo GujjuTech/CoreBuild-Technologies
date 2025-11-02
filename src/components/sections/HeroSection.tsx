@@ -71,8 +71,8 @@ const HeroSection = () => {
                 <ArrowRight className="ml-2 h-5 w-5" />
               </Button>
               <a
-                href="/brochure.pdf"
-                download="Makewell-Technomac-Brochure.pdf"
+                href=""
+                download="CoreBuild-Technologies-Brochure.pdf"
               >
                 <Button
                   variant="outline"

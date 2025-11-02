@@ -102,7 +102,7 @@ const FeaturesSection = () => {
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold mb-4">
             Why Choose{" "}
-            <span className="text-gradient-primary">Makewell Technomac</span>
+            <span className="text-gradient-primary">CoreBuild Technologies</span>
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
             Delivering cutting-edge foundry solutions with unmatched quality,
